@@ -1,6 +1,7 @@
 import React, { Component } from "react"; 
 import Navigation from "./components/Navigation/Navigation";
 import Logo from "./components/Logo/Logo";
+import ImageLinkForm from "./components/ImageLinkForm/ImageLinkForm";
 import './App.css';
 import Particles from "react-tsparticles"; 
 import { loadFull } from "tsparticles";
@@ -18,8 +19,8 @@ class App extends Component {
       <div className="App">
         <Navigation/>
         <Logo/>
-        {/* <ImageLinkForm/>
-        <FaceRecognition/> */}
+        <ImageLinkForm/>
+        {/* <FaceRecognition/> */}
         {/* <Particles
               id="tsparticles"
               init={particlesInit}
