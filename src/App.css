@@ -7,7 +7,17 @@
   justify-content: center;
 }
 
-.App-logo {
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1; /*used with position fixed or absolute described the layer where you want your picture to be at*/
+
+}
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -40,4 +50,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
